@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style1.css">
+  <title>Random Joke Generator</title>
+</head>
+<body>
+  <header>
+    <h1>Random Joke Generator</h1>
+  </header>
+  <main>
+    <div class="input-section">
+      <label for="category">Select a Joke Category:</label>
+      <select id="category" name="category">
+        <option value="Any">Any</option>
+        <option value="Programming">Programming</option>
+        <option value="Miscellaneous">Miscellaneous</option>
+        <option value="Pun">Pun</option>
+      </select>
+      <button id="get-joke">Get Joke</button>
+    </div>
+    <div class="joke-section">
+      <p id="joke-category"></p>
+      <p id="joke"></p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2023 Joke Generator App</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

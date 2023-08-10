@@ -1,0 +1,54 @@
+/* Your CSS styles for layout, typography, and appearance */
+/* Example styles below: */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  main {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  #category {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  #get-joke {
+    padding: 5px 10px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #joke-category {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+  }
+  
